@@ -1,0 +1,189 @@
+body{
+    padding-top: 3rem;
+    background-color: WhiteSmoke;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.logo img{
+    display: block;
+    width: 50px;
+    height: auto;
+}
+.logo span{
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+
+
+/*Main part*/
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+.container2{
+    width: 800px;
+    margin: 0 auto;
+}
+.row{
+    text-align: center;
+}
+
+.row2{
+    margin-top: 50px;
+    text-align: end;
+}
+
+.row3{
+    text-align: end;
+    padding: 5px 10px;
+}
+
+input{
+    width: 200px;
+    margin-bottom:40px;
+    border: solid 2px black;
+    padding: 5px 51px 5px 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+input::-webkit-input-placeholder { color: black; }
+select{
+    width: 260px;
+    margin-bottom:40px;
+    border: solid 2px black;
+    padding: 4px 50px 5px 5px;
+    border-radius: 5px;
+}
+.btn{
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 20px;
+    width: auto;
+    float: right;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+label{
+    width: 260px;
+    margin-bottom:40px;
+    border: solid 2px black;
+    padding: 5px 144px 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*tags for table*/
+.btn2{
+    border: solid 2px black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+table{
+    background-color: #fff;
+    border-spacing: 0;
+}
+th{
+    background-color: #909090;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-weight: 100;
+    border-bottom: solid 2px black;
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+}
+th:first-child{
+    border-left: solid 2px black;
+}
+td{
+    height: 40px;
+    font-weight: 400;
+    border-bottom: solid 2px black;
+    border-right: solid 2px black;
+}
+td:first-child{
+    border-left: solid 2px black;
+}
+
+/*    tags for login*/
+.search{
+    width: auto;
+    padding: 5px;
+    margin:0 5px;
+}
+input[type="search"]::-webkit-input-placeholder { color: gray; }
+.login button img{
+    width: 20px;
+    height: 20px;
+
+}
+.login button{
+    padding: 2px;
+    border: solid 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+.login a{
+    font-size: 20px;
+}
+.login input{
+    border: solid 2px;
+    border-radius: 5px;
+}
+
+/*---window---*/
+.window{
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    margin-left: 100px;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 5px;
+    z-index: 2;
+    align-items: center;
+    left: 27%;
+    top: 25%;
+    box-shadow: 5px 5px 5px #0000003d;
+    display: none;
+}
+
+
+.no-users{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.exception{
+    color: #f00;
+    font-size: 20px;
+    padding: 0px 70px;
+    font-weight: 700;
+}

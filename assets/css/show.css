@@ -1,0 +1,267 @@
+body{
+    padding-top: 3rem;
+    background-color: WhiteSmoke;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.logo img{
+    display: block;
+    width: 50px;
+    height: auto;
+}
+.logo span{
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+/*    tags for login*/
+.search{
+    width: auto;
+    padding: 5px;
+    margin:0 5px;
+}
+input[type="search"]::-webkit-input-placeholder { color: gray; }
+.login button img{
+    width: 20px;
+    height: 20px;
+
+}
+.login button{
+    padding: 2px;
+    border: solid 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+.login a{
+    font-size: 20px;
+}
+.login input{
+    border: solid 2px;
+    border-radius: 5px;
+}
+
+
+
+/* User part*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    padding-top: 35px;
+    padding-left:20px;
+}
+.right img{
+    width: 200px;
+    height: 200px;
+}
+.left p{
+    font-weight:600;
+    font-size: 24px;
+}
+.btn{
+    text-align: center;
+    padding: 10px 20px;
+    width: auto;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/*tags for showme*/
+input{
+    width: 200px;
+    margin-bottom:15px;
+    border: solid 2px black;
+    padding: 5px 51px 5px 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+input::-webkit-input-placeholder { color: black; }
+select {
+    width: 260px;
+    margin-bottom: 40px;
+    border: solid 2px black;
+    padding: 4px 50px 5px 5px;
+    border-radius: 5px;
+}
+input[type="file"] {
+    display: none;
+}
+label{
+    width: 260px;
+    margin-bottom:40px;
+    border: solid 2px black;
+    padding: 5px 144px 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.leftshowme{
+    padding-top: 65px;
+}
+input[type="submit"] {
+    font-size: medium;
+}
+
+/*---window---*/
+.window{
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    margin-left: 100px;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 5px;
+    z-index: 2;
+    align-items: center;
+    left: 27%;
+    top: 25%;
+    box-shadow: 5px 5px 5px #0000003d;
+    display: none;
+}
+
+.row3{
+    text-align: end;
+    padding: 5px 10px;
+}
+
+.window input{
+    width: 200px;
+    margin-bottom: 40px;
+    border: solid 2px black;
+    padding: 5px 51px 5px 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.window .row{
+    text-align: center;
+}
+
+.window .btn{
+    ursor: pointer;
+    text-align: center;
+    padding: 10px 20px;
+    width: auto;
+    float: right;
+    margin-right: 70px;
+    margin-top: 50px;
+    text-transform: none;
+}
+.window input[type="submit"] {
+    font-size: revert;
+}
+
+
+
+/* Tags for inputting commentaries*/
+input[type="datetime-local"] {
+    display: none;
+}
+.comments{
+    margin-top: 50px;
+}
+
+.commenting input{
+    padding: 5px;
+    width: auto;
+}
+
+.commenting input[type="text"]{
+    padding: 5px;
+    width: 80%;
+    height: 50px;
+}
+
+/* tags for inputted commentaries*/
+
+.user-whole-comment{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+.user-avatar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding:  0 10px;
+}
+
+/*.user-avatar{*/
+/*    border-right: black 2px solid;*/
+/*}*/
+
+.user-comment-information{
+    border-left: black 2px solid;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-date{
+    display: inline-block;
+    color: #909090;
+}
+.user-nickname{
+    display: inline-block;
+    color: #909090;
+    padding: 10px 0 0 10px;
+}
+
+
+.user-comment{
+    padding-left: 10px;
+    font-style: italic;
+}
+.user-abilities{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    border-left: black 2px solid;
+}
+
+.editing img, .deleting img{
+    height: 20px;
+    width: auto;
+}
+.editing, .deleting{
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 2px black;
+    margin-left: 5px;
+}
+
+.user-no-comments{
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+}
+
